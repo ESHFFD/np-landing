@@ -1,0 +1,42 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import '../styles/index.css';
+@import 'tailwindcss/utilities';
+
+:root {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color: #0f1f39;
+}
+
+.card-gradient {
+  background: radial-gradient(
+    30.44% 87.26% at 90.9% 12.74%,
+    rgba(89, 86, 245, 0.6) 0%,
+    rgba(89, 86, 245, 0) 100%
+  );
+}
+
+.anime-button {
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+  backdrop-filter: blur(25px);
+  box-shadow: 0px 0px 8px 0px #ff001f99 inset;
+  background: #ff001f33;
+}
+
+.anime-button-2 {
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+  backdrop-filter: blur(25px);
+  background: #ff001f33;
+  box-shadow: 0px 0px 16px 0px #ff001f26 inset;
+}
+
+.green-input {
+  box-shadow: 0px 0px 8px 0px #00ff7599 inset;
+}

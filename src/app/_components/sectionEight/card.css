@@ -1,0 +1,30 @@
+.card-gradient-pureple {
+  background:
+    radial-gradient(
+        30.44% 87.26% at 90.9% 12.74%,
+        rgba(255, 0, 214, 0.6) 0%,
+        rgba(153, 0, 129, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    linear-gradient(0deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06));
+}
+.card-gradient-green {
+  background:
+    radial-gradient(
+        30.44% 87.26% at 90.9% 12.74%,
+        rgba(0, 255, 117, 0.6) 0%,
+        rgba(0, 255, 117, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    linear-gradient(0deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06));
+}
+.card-gradient-blue {
+  background:
+    radial-gradient(
+        30.44% 87.26% at 90.9% 12.74%,
+        rgba(89, 86, 245, 0.6) 0%,
+        rgba(89, 86, 245, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    linear-gradient(0deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06));
+}

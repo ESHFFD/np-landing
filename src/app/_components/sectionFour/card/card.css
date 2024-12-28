@@ -1,0 +1,19 @@
+.glass-card {
+  backdrop-filter: blur(64px);
+
+  box-shadow: 1px 1px 1px 0px #ffffff4d inset;
+
+  box-shadow: -1px -1px 1px 0px #5956f54d inset;
+
+  box-shadow: -4px -4px 24px 0px #5956f526 inset;
+
+  box-shadow: 4px 4px 24px 0px #ffffff26 inset;
+}
+
+.rectangle-bg {
+  background: linear-gradient(
+    179.94deg,
+    rgba(0, 225, 117, 0) 20.44%,
+    #01dd73 99.95%
+  );
+}

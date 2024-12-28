@@ -1,0 +1,52 @@
+.btn {
+  @apply no-underline  gap-2 h-12  min-w-[80px] px-4  border inline-flex  cursor-pointer select-none;
+  @apply items-center justify-center border-transparent text-center transition duration-100 ease-in-out rounded-[32px];
+
+  &-primary {
+    color: #0f1f39;
+    background: radial-gradient(
+      85.16% 444.9% at 94.14% 77.68%,
+      #00ff75 0%,
+      #00ff75 100%
+    );
+    &:hover {
+      box-shadow: 0px -8px 16px 0px #ffffff80 inset;
+      background: radial-gradient(
+        85.16% 444.9% at 94.14% 77.68%,
+        #ecfbf3 0%,
+        #00ff75 68.65%
+      );
+    }
+  }
+  &-secondary {
+    color: white;
+    background: -gradient(
+      85.16% 444.9% at 94.14% 77.68%,
+      #0f1f39 0%,
+      #0f1f39 100%
+    );
+    box-shadow: 0px -8px 25px 0px #2a569f26 inset;
+
+    &:hover {
+      box-shadow: 0px -8px 16px 0px #2a569f99 inset;
+
+      background: radial-gradient(
+        64.34% 159.85% at 94.75% 79.46%,
+        rgba(42, 86, 159, 0.1) 0%,
+        #0f1f39 100%
+      );
+    }
+  }
+
+  &-outline {
+    @apply border-primary bg-transparent text-primary;
+
+    &.btn-primary {
+      @apply text-white bg-transparent;
+      @media (hover: hover) {
+      }
+    }
+  }
+}
+
+/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */

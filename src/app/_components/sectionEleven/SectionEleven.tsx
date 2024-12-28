@@ -51,7 +51,7 @@ const SectionEleven = () => {
           toast.error('All field is required');
         }
       })
-      .catch((er) => console.log(''));
+      .catch((er) => console.log(er));
   };
 
   return (
